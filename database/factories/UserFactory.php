@@ -32,12 +32,12 @@ class UserFactory extends Factory
         ];
     }
 
-    public function admin()
-    {
-        return $this->state(function (array $attributes) {
-            return [
-                'menuroles' => 'user,admin',
-            ];
-        });
-    }
+    // public function admin()
+    // {
+    //     return $this->state(function (array $attributes) {
+    //         return [
+    //             'menuroles' => 'user,admin',
+    //         ];
+    //     });
+    // }
 }
